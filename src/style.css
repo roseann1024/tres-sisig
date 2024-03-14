@@ -39,7 +39,14 @@ main img {
   display: block;
   margin: 0 auto;
 }
-
+p {
+  line-height: 2;
+}
+a {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
 @media (max-width: 960px) {
   header {
     padding: 10px;
