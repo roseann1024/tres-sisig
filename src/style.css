@@ -16,7 +16,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  min-height: 50vh;
+
   padding-bottom: 10px;
 }
 
@@ -31,8 +31,13 @@ body main {
   padding: 60px;
 }
 
+main .description {
+  padding-left: 60px;
+}
+
 main h4 {
-  color: #f7bc00;
+  color: #ffd900;
+  font-weight: 800;
 }
 
 main img {
@@ -47,6 +52,12 @@ a {
   font-style: italic;
   text-decoration: none;
 }
+
+footer {
+  font-size: 12px;
+  margin: 10px;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 10px;
@@ -57,10 +68,18 @@ a {
   }
 
   body main {
-    padding: 10px;
+    padding: 10px !important;
+    text-align: center !important;
+    padding-top: 30px !important;
   }
 
   main img {
     display: block;
+  }
+
+  main .description {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding: 20px;
   }
 }
