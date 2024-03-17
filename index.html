@@ -15,8 +15,38 @@
 </head>
 
 <body>
-
     <header>
+        <nav class="navbar navbar-expand-lg border-body" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img src="image/favicon-32x32.png" alt="" class="img-fluid p-2"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" aria-current="page" href="/" title="Homepage"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="#menu" title="Check out our menu">Menu</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="#start" title="Find out how we started">About</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="#contact" title="Contact us">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
 
         <img src="image/logo.png" alt="" class="img-fluid">
         <h1 class="text-center">
@@ -25,10 +55,14 @@
     </header>
     <main>
         <section>
-            <div class="row">
+
+            <div><img src="image/menu-2.png" alt="" width="800" class="img-fluid rounded mb-5" id="menu"></div>
+            <hr />
+
+            <div class="row pt-4 pb-2" id="start">
                 <div class="col-md-6">
 
-                    <img src="image/menu.png" alt="" class="img-fluid rounded" width="600">
+                    <img src="image/store-photo.png" alt="" class="img-fluid rounded" width="400">
                 </div>
                 <div class="col-md-6 description">
                     <h4>How it all started</h4>
@@ -40,31 +74,42 @@
                         bringing the flavors of
                         Manila-style sisig to Iloilo. <em>Swing by soon!</em></p>
 
-                    <h4 class="pt-5">
+                    <h4 class="pt-3">
                         Operating Hours
                     </h4>
                     <p>
-                        Monday - Friday: 8am to 8pm<br />
-                        Saturday: 3pm to 8pm<br />
-                        Sunday: CLOSED<br />
+                        Monday - Friday: 8am to 10pm<br />
+                        Saturday: 3pm to 10pm<br />
+                        Sunday: <strong>CLOSED</strong><br />
                     </p>
-                    <h4 class="pt-5">
+                    <h4>
                         Location
                     </h4>
-                    <p>📍<a href="https://maps.app.goo.gl/psFTa7PpLE6eD1zc6" target="_blank">Felix Gorriceta J. Avenue,
-                            Brgy. Pandac, Pavia, Philippines</a></p>
-                    <h4 class="pt-5">Contact us</h4>
-                    <p>
-                        🌐 <a href="https://www.facebook.com/trezsisig" target="_blank">Trez Sisig Corner</a> <br />
-                        📞 +639 27 087 6182 <br />
-                        📩 tressisig@yahoo.com
-
+                    <p>📍<a href="https://maps.app.goo.gl/psFTa7PpLE6eD1zc6" target="_blank"
+                            title="open google map">Felix Gorriceta J. Avenue,
+                            Brgy. Pandac, Pavia, Philippines</a>
+                        <br />*Along Deca 3
                     </p>
+
                 </div>
             </div>
+            <hr />
+            <div class="contact text-center">
+                <h4 class="p-4" id="contact">Contact us</h4>
+                <p>
+                    🌐 <a href="https://www.facebook.com/trezsisig" target="_blank" title="connect with us">Trez Sisig
+                        Corner</a> | 📞 +639 27
+                    087 6182 | 📩 <a href="mailto:tressisig@yahoo.com" target="_blank"
+                        title="email us">tressisig@yahoo.com</a>
+
+                </p>
+            </div>
+
+
 
     </main>
-    <footer>© Tres Sisig EST 2024</footer>
+    <hr />
+    <footer class="pt-3">© Tres Sisig EST 2024</footer>
 </body>
 
 </html>
